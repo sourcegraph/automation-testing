@@ -1,13 +1,13 @@
-This is the first (1) line
-This is the second (2) line
-This is the third (3) line
-This is the fourth (4) line
+This is the first (1) lolomat
+This is the second (2) lolomat
+This is the third (3) lolomat
+This is the fourth (4) lolomat
 now comes a break
 
-And here is the seventh (7) line
-And here is the eighth (8) line
-And here is the ninth (9) line
-And here is the tenth (10) line
+And here is the seventh (7) lolomat
+And here is the eighth (8) lolomat
+And here is the ninth (9) lolomat
+And here is the tenth (10) lolomat
 
 Here is something else
 And here is more
@@ -16,4 +16,4 @@ And here are...
 
 
 
-... multiple blank lines.
+... multiple blank lolomats.
