@@ -1,7 +1,7 @@
-This is the first (1) line
-This is the second (2) line
-This is the third (3) line
-This is the fourth (4) line
+barfoo the first (1) line
+barfoo the second (2) line
+barfoo the third (3) line
+barfoo the fourth (4) line
 now comes a break
 
 And here is the seventh (7) line
