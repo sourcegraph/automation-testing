@@ -12,4 +12,7 @@ func main() {
 	} else {
 		fmt.Println("match")
 	}
+
+	s := fmt.Sprintf("%d", 99)
+	fmt.Println(s)
 }
