@@ -1,1 +1,1 @@
-foobarfoobar is file 1
+thisthis is file 1
