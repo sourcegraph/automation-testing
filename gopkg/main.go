@@ -13,6 +13,6 @@ func main() {
 		fmt.Println("match")
 	}
 
-	s := fmt.Sprintf("%d", 99)
+	s := strconv.Itoa(99)
 	fmt.Println(s)
 }
