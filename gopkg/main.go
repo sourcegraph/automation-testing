@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"regexp"
+	"strconv"
 )
 
 func main() {
@@ -13,6 +14,6 @@ func main() {
 		fmt.Println("match")
 	}
 
-	s := fmt.Sprintf("%d", 99)
+	s := strconv.Itoa(99)
 	fmt.Println(s)
 }
