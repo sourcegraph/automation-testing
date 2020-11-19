@@ -1,1 +1,1 @@
-foobarfoobar is file 2
+BARbarBARbar is file 2
