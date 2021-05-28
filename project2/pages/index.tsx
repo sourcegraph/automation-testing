@@ -8,11 +8,13 @@ import { useEffect } from "react";
 
 type BatchSpec = {
   name: string;
+  display: boolean;
   spec: string;
 };
 
 var batchSpecs = [
   {
+    display: true,
     name: "horse-was-here",
     spec: `name: horse-was-here
 description: the horse was here
@@ -53,6 +55,22 @@ changesetTemplate:
   },
 ];
 
+const BatchSpecDetails: React.FunctionComponent<{ spec: BatchSpec }> = ({
+  spec,
+}) => {
+  if (!!!spec.display) {
+    return <></>;
+  }
+  return (
+    <div key={spec.name}>
+      <h4>{spec.name}</h4>
+      <pre>
+        <code className="language-yaml">{spec.spec}</code>
+      </pre>
+    </div>
+  );
+};
+
 const Home: React.FunctionComponent<{}> = () => {
   useEffect(() => {
     Prism.highlightAll();
@@ -70,12 +88,7 @@ const Home: React.FunctionComponent<{}> = () => {
         <h1 className="title">Batch Spec Examples</h1>
 
         {batchSpecs.map((spec: BatchSpec) => (
-          <div key={spec.name}>
-            <h4>{spec.name}</h4>
-            <pre>
-              <code className="language-yaml">{spec.spec}</code>
-            </pre>
-          </div>
+          <BatchSpecDetails spec={spec} />
         ))}
       </main>
     </div>
