@@ -1,18 +1,18 @@
+/* eslint-disable no-useless-escape */
 import React from "reactjs";
 import Head from "next/head";
 import Prism from "prismjs";
-require("prismjs/components/prism-yaml");
+import "prismjs/components/prism-yaml";
 import "prismjs/themes/prism-tomorrow.css";
 
 import { useEffect } from "react";
 
-type BatchSpec = {
+interface BatchSpec {
   name: string;
   display: boolean;
   spec: string;
-};
+}
 
-// eslint-disable-next-line no-var
 var batchSpecs = [
   {
     display: true,
