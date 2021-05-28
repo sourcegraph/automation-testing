@@ -1,11 +1,10 @@
 /* eslint-disable no-useless-escape */
-import React from "reactjs";
 import Head from "next/head";
 import Prism from "prismjs";
 import "prismjs/components/prism-yaml";
 import "prismjs/themes/prism-tomorrow.css";
 
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 interface BatchSpec {
   name: string;
