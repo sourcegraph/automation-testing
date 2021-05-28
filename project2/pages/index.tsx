@@ -1,5 +1,5 @@
+import React from "reactjs";
 import Head from "next/head";
-
 import Prism from "prismjs";
 require("prismjs/components/prism-yaml");
 import "prismjs/themes/prism-tomorrow.css";
@@ -12,6 +12,7 @@ type BatchSpec = {
   spec: string;
 };
 
+// eslint-disable-next-line no-var
 var batchSpecs = [
   {
     display: true,
